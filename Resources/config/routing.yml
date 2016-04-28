@@ -1,0 +1,7 @@
+default:
+  path: "/"
+  defaults: { _controller: GearmanBundle:Default:index }
+
+show_gearman:
+  path: "/show"
+  defaults: { _controller: GearmanBundle:Default:show }
