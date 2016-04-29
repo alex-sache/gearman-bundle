@@ -1,6 +1,6 @@
 <?php
 
-namespace GearmanBundle\Event;
+namespace EduardTrandafir\GearmanBundle\Event;
 
 use Symfony\Component\EventDispatcher\Event;
 

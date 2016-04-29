@@ -1,10 +1,10 @@
 <?php
 
-namespace GearmanBundle\Module;
+namespace EduardTrandafir\GearmanBundle\Module;
 
 use ReflectionMethod;
 
-use GearmanBundle\Driver\Gearman\Job as JobAnnotation;
+use EduardTrandafir\GearmanBundle\Driver\Gearman\Job as JobAnnotation;
 use Symfony\Component\DependencyInjection\ContainerAwareTrait;
 
 /**

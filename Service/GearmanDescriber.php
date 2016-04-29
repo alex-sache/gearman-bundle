@@ -1,6 +1,6 @@
 <?php
 
-namespace GearmanBundle\Service;
+namespace EduardTrandafir\GearmanBundle\Service;
 
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\HttpKernel\KernelInterface;

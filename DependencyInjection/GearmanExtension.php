@@ -1,6 +1,6 @@
 <?php
 
-namespace GearmanBundle\DependencyInjection;
+namespace EduardTrandafir\GearmanBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

@@ -1,12 +1,12 @@
 <?php
 
-namespace GearmanBundle\Service;
+namespace EduardTrandafir\GearmanBundle\Service;
 
-use GearmanBundle\Dispatcher\GearmanCallbacksDispatcher;
-use GearmanBundle\GearmanMethods;
-use GearmanBundle\Generator\UniqueJobIdentifierGenerator;
-use GearmanBundle\Module\JobStatus;
-use GearmanBundle\Service\Abstracts\AbstractGearmanService;
+use EduardTrandafir\GearmanBundle\Dispatcher\GearmanCallbacksDispatcher;
+use EduardTrandafir\GearmanBundle\GearmanMethods;
+use EduardTrandafir\GearmanBundle\Generator\UniqueJobIdentifierGenerator;
+use EduardTrandafir\GearmanBundle\Module\JobStatus;
+use EduardTrandafir\GearmanBundle\Service\Abstracts\AbstractGearmanService;
 
 /**
  * GearmanClient. Implementation of AbstractGearmanService

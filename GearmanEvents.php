@@ -1,6 +1,6 @@
 <?php
 
-namespace GearmanBundle;
+namespace EduardTrandafir\GearmanBundle;
 
 /**
  * Events dispatched by GearmanBundle

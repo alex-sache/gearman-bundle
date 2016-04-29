@@ -1,6 +1,6 @@
 <?php
 
-namespace GearmanBundle\Dispatcher\Abstracts;
+namespace EduardTrandafir\GearmanBundle\Dispatcher\Abstracts;
 
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 

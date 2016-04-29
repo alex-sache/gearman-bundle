@@ -29,8 +29,9 @@
     "symfony/finder": "~3.0",
     "symfony/options-resolver": "~3.0"
   },
+  "target-dir": "EduardTrandafir/GearmanBundle",
   "autoload": {
-    "psr-0": { "eduardtrandafir\\": "gearman-bundle" }
+    "psr-0": { "EduardTrandafir\\GearmanBundle": "" }
   },
   "minimum-stability": "stable",
   "extra": {

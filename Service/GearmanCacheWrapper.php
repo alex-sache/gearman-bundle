@@ -1,6 +1,6 @@
 <?php
 
-namespace GearmanBundle\Service;
+namespace EduardTrandafir\GearmanBundle\Service;
 
 use Doctrine\Common\Cache\Cache;
 use Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface;

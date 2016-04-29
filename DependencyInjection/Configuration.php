@@ -1,6 +1,6 @@
 <?php
 
-namespace GearmanBundle\DependencyInjection;
+namespace EduardTrandafir\GearmanBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

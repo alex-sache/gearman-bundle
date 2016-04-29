@@ -1,6 +1,6 @@
 <?php
 
-namespace GearmanBundle\Driver\Gearman;
+namespace EduardTrandafir\GearmanBundle\Driver\Gearman;
 
 use Doctrine\Common\Annotations\Annotation;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace GearmanBundle\Command;
+namespace EduardTrandafir\GearmanBundle\Command;
 
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use GearmanBundle\Command\Abstracts\AbstractGearmanCommand;
-use GearmanBundle\Command\GearmanJobDescribeCommand;
-use GearmanBundle\Service\GearmanClient;
+use EduardTrandafir\GearmanBundle\Command\Abstracts\AbstractGearmanCommand;
+use EduardTrandafir\GearmanBundle\Command\GearmanJobDescribeCommand;
+use EduardTrandafir\GearmanBundle\Service\GearmanClient;
 
 /**
  * Gearman Job List Command class

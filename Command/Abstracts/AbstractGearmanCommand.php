@@ -1,6 +1,6 @@
 <?php
 
-namespace GearmanBundle\Command\Abstracts;
+namespace EduardTrandafir\GearmanBundle\Command\Abstracts;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\HttpKernel\KernelInterface;

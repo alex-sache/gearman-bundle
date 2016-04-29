@@ -1,6 +1,6 @@
 <?php
 
-namespace GearmanBundle\Module;
+namespace EduardTrandafir\GearmanBundle\Module;
 
 /**
  * Job status class

@@ -1,8 +1,8 @@
 <?php
 
-namespace GearmanBundle\Module;
+namespace EduardTrandafir\GearmanBundle\Module;
 
-use GearmanBundle\Module\JobClass as Job;
+use EduardTrandafir\GearmanBundle\Module\JobClass as Job;
 
 /**
  * Job Collection class

@@ -1,6 +1,6 @@
 <?php
 
-namespace GearmanBundle\Event\Abstracts;
+namespace EduardTrandafir\GearmanBundle\Event\Abstracts;
 
 use GearmanTask;
 use Symfony\Component\EventDispatcher\Event;

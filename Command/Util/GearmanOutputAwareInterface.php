@@ -1,6 +1,6 @@
 <?php
 
-namespace GearmanBundle\Command\Util;
+namespace EduardTrandafir\GearmanBundle\Command\Util;
 
 use Symfony\Component\Console\Output\OutputInterface;
 

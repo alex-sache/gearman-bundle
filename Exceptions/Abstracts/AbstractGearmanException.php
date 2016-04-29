@@ -1,6 +1,6 @@
 <?php
 
-namespace GearmanBundle\Exceptions\Abstracts;
+namespace EduardTrandafir\GearmanBundle\Exceptions\Abstracts;
 
 use Exception;
 

@@ -1,19 +1,19 @@
 <?php
 
-namespace GearmanBundle\Dispatcher;
+namespace EduardTrandafir\GearmanBundle\Dispatcher;
 
 use GearmanTask;
 
-use GearmanBundle\Dispatcher\Abstracts\AbstractGearmanDispatcher;
-use GearmanBundle\Event\GearmanClientCallbackCompleteEvent;
-use GearmanBundle\Event\GearmanClientCallbackCreatedEvent;
-use GearmanBundle\Event\GearmanClientCallbackDataEvent;
-use GearmanBundle\Event\GearmanClientCallbackExceptionEvent;
-use GearmanBundle\Event\GearmanClientCallbackFailEvent;
-use GearmanBundle\Event\GearmanClientCallbackStatusEvent;
-use GearmanBundle\Event\GearmanClientCallbackWarningEvent;
-use GearmanBundle\Event\GearmanClientCallbackWorkloadEvent;
-use GearmanBundle\GearmanEvents;
+use EduardTrandafir\GearmanBundle\Dispatcher\Abstracts\AbstractGearmanDispatcher;
+use EduardTrandafir\GearmanBundle\Event\GearmanClientCallbackCompleteEvent;
+use EduardTrandafir\GearmanBundle\Event\GearmanClientCallbackCreatedEvent;
+use EduardTrandafir\GearmanBundle\Event\GearmanClientCallbackDataEvent;
+use EduardTrandafir\GearmanBundle\Event\GearmanClientCallbackExceptionEvent;
+use EduardTrandafir\GearmanBundle\Event\GearmanClientCallbackFailEvent;
+use EduardTrandafir\GearmanBundle\Event\GearmanClientCallbackStatusEvent;
+use EduardTrandafir\GearmanBundle\Event\GearmanClientCallbackWarningEvent;
+use EduardTrandafir\GearmanBundle\Event\GearmanClientCallbackWorkloadEvent;
+use EduardTrandafir\GearmanBundle\GearmanEvents;
 
 /**
  * Gearman callbacks

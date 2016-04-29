@@ -1,10 +1,10 @@
 <?php
 
-namespace GearmanBundle\Service\Abstracts;
+namespace EduardTrandafir\GearmanBundle\Service\Abstracts;
 
-use GearmanBundle\Exceptions\JobDoesNotExistException;
-use GearmanBundle\Exceptions\WorkerDoesNotExistException;
-use GearmanBundle\Service\GearmanCacheWrapper;
+use EduardTrandafir\GearmanBundle\Exceptions\JobDoesNotExistException;
+use EduardTrandafir\GearmanBundle\Exceptions\WorkerDoesNotExistException;
+use EduardTrandafir\GearmanBundle\Service\GearmanCacheWrapper;
 
 /**
  * Gearman execute methods. All Worker methods

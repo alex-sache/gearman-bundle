@@ -1,8 +1,8 @@
 <?php
 
-namespace GearmanBundle\Generator;
+namespace EduardTrandafir\GearmanBundle\Generator;
 
-use GearmanBundle\Exceptions\WorkerNameTooLongException;
+use EduardTrandafir\GearmanBundle\Exceptions\WorkerNameTooLongException;
 
 /**
  * Job Unique Key generator

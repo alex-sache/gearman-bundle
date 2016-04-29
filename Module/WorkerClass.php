@@ -1,13 +1,13 @@
 <?php
 
-namespace GearmanBundle\Module;
+namespace EduardTrandafir\GearmanBundle\Module;
 
 use Doctrine\Common\Annotations\Reader;
 use ReflectionClass;
 
-use GearmanBundle\Driver\Gearman\Job as JobAnnotation;
-use GearmanBundle\Driver\Gearman\Work as WorkAnnotation;
-use GearmanBundle\Module\JobClass as Job;
+use EduardTrandafir\GearmanBundle\Driver\Gearman\Job as JobAnnotation;
+use EduardTrandafir\GearmanBundle\Driver\Gearman\Work as WorkAnnotation;
+use EduardTrandafir\GearmanBundle\Module\JobClass as Job;
 
 /**
  * Worker class

@@ -1,6 +1,6 @@
 <?php
 
-namespace GearmanBundle\Service;
+namespace EduardTrandafir\GearmanBundle\Service;
 
 use Symfony\Component\Console\Output\NullOutput;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -8,12 +8,12 @@ use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
-use GearmanBundle\Command\Util\GearmanOutputAwareInterface;
-use GearmanBundle\Event\GearmanWorkExecutedEvent;
-use GearmanBundle\Event\GearmanWorkStartingEvent;
-use GearmanBundle\GearmanEvents;
-use GearmanBundle\Service\Abstracts\AbstractGearmanService;
-use GearmanBundle\Exceptions\ServerConnectionException;
+use EduardTrandafir\GearmanBundle\Command\Util\GearmanOutputAwareInterface;
+use EduardTrandafir\GearmanBundle\Event\GearmanWorkExecutedEvent;
+use EduardTrandafir\GearmanBundle\Event\GearmanWorkStartingEvent;
+use EduardTrandafir\GearmanBundle\GearmanEvents;
+use EduardTrandafir\GearmanBundle\Service\Abstracts\AbstractGearmanService;
+use EduardTrandafir\GearmanBundle\Exceptions\ServerConnectionException;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**

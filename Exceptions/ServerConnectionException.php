@@ -1,8 +1,8 @@
 <?php
 
-namespace GearmanBundle\Exceptions;
+namespace EduardTrandafir\GearmanBundle\Exceptions;
 
-use GearmanBundle\Exceptions\Abstracts\AbstractGearmanException;
+use EduardTrandafir\GearmanBundle\Exceptions\Abstracts\AbstractGearmanException;
 
 /**
  * GearmanBundle can't connect to server Exception

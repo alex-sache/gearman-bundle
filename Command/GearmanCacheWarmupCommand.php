@@ -1,12 +1,12 @@
 <?php
 
-namespace GearmanBundle\Command;
+namespace EduardTrandafir\GearmanBundle\Command;
 
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-use GearmanBundle\Command\Abstracts\AbstractGearmanCommand;
-use GearmanBundle\Service\GearmanCacheWrapper;
+use EduardTrandafir\GearmanBundle\Command\Abstracts\AbstractGearmanCommand;
+use EduardTrandafir\GearmanBundle\Service\GearmanCacheWrapper;
 
 /**
  * Warms up all cache data

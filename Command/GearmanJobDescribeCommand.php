@@ -1,13 +1,13 @@
 <?php
 
-namespace GearmanBundle\Command;
+namespace EduardTrandafir\GearmanBundle\Command;
 
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use GearmanBundle\Command\Abstracts\AbstractGearmanCommand;
-use GearmanBundle\Service\GearmanClient;
-use GearmanBundle\Service\GearmanDescriber;
+use EduardTrandafir\GearmanBundle\Command\Abstracts\AbstractGearmanCommand;
+use EduardTrandafir\GearmanBundle\Service\GearmanClient;
+use EduardTrandafir\GearmanBundle\Service\GearmanDescriber;
 
 class GearmanJobDescribeCommand extends AbstractGearmanCommand
 {

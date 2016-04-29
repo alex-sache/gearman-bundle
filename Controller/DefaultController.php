@@ -1,8 +1,8 @@
 <?php
 
-namespace GearmanBundle\Controller;
+namespace EduardTrandafir\GearmanBundle\Controller;
 
-use GearmanBundle\Service\GearmanClient;
+use EduardTrandafir\GearmanBundle\Service\GearmanClient;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 

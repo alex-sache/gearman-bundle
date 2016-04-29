@@ -1,7 +1,7 @@
 <?php
-namespace GearmanBundle\Workers;
+namespace EduardTrandafir\GearmanBundle\Workers;
 
-use GearmanBundle\Driver\Gearman;
+use EduardTrandafir\GearmanBundle\Driver\Gearman;
 use Symfony\Component\DependencyInjection\Container;
 
 /**

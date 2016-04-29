@@ -1,8 +1,8 @@
 <?php
 
-namespace GearmanBundle\Event;
+namespace EduardTrandafir\GearmanBundle\Event;
 
-use GearmanBundle\Event\Abstracts\AbstractGearmanClientTaskEvent;
+use EduardTrandafir\GearmanBundle\Event\Abstracts\AbstractGearmanClientTaskEvent;
 
 /**
  * GearmanClientCallbackStatusEvent

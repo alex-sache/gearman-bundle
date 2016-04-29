@@ -1,15 +1,15 @@
 <?php
 
-namespace GearmanBundle\Service;
+namespace EduardTrandafir\GearmanBundle\Service;
 
 use Doctrine\Common\Annotations\Reader;
 use ReflectionClass;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\HttpKernel\KernelInterface;
 
-use GearmanBundle\Driver\Gearman\Work as WorkAnnotation;
-use GearmanBundle\Module\WorkerClass as Worker;
-use GearmanBundle\Module\WorkerCollection;
+use EduardTrandafir\GearmanBundle\Driver\Gearman\Work as WorkAnnotation;
+use EduardTrandafir\GearmanBundle\Module\WorkerClass as Worker;
+use EduardTrandafir\GearmanBundle\Module\WorkerCollection;
 
 /**
  * Gearman parsing methods

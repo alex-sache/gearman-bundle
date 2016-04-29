@@ -1,8 +1,8 @@
 <?php
 
-namespace GearmanBundle\Module;
+namespace EduardTrandafir\GearmanBundle\Module;
 
-use GearmanBundle\Module\WorkerClass as Worker;
+use EduardTrandafir\GearmanBundle\Module\WorkerClass as Worker;
 
 /**
  * WorkerCollection class
