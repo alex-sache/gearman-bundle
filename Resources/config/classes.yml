@@ -8,33 +8,33 @@ parameters:
     #
     # Generators
     #
-    gearman.unique_job_identifier.class: GearmanBundle\Generator\UniqueJobIdentifierGenerator
+    gearman.unique_job_identifier.class: EduardTrandafir\GearmanBundle\Generator\UniqueJobIdentifierGenerator
 
     #
     # Dispatchers
     #
-    gearman.dispatcher.callbacks.class: GearmanBundle\Dispatcher\GearmanCallbacksDispatcher
+    gearman.dispatcher.callbacks.class: EduardTrandafir\GearmanBundle\Dispatcher\GearmanCallbacksDispatcher
 
     #
     # Services
     #
-    gearman.client.class:           GearmanBundle\Service\GearmanClient
-    gearman.callbacks.class:        GearmanBundle\Service\GearmanCallbacks
-    gearman.execute.class:          GearmanBundle\Service\GearmanExecute
-    gearman.describer.class:        GearmanBundle\Service\GearmanDescriber
-    gearman.parser.class:           GearmanBundle\Service\GearmanParser
-    gearman.cache.wrapper.class:    GearmanBundle\Service\GearmanCacheWrapper
+    gearman.client.class:           EduardTrandafir\GearmanBundle\Service\GearmanClient
+    gearman.callbacks.class:        EduardTrandafir\GearmanBundle\Service\GearmanCallbacks
+    gearman.execute.class:          EduardTrandafir\GearmanBundle\Service\GearmanExecute
+    gearman.describer.class:        EduardTrandafir\GearmanBundle\Service\GearmanDescriber
+    gearman.parser.class:           EduardTrandafir\GearmanBundle\Service\GearmanParser
+    gearman.cache.wrapper.class:    EduardTrandafir\GearmanBundle\Service\GearmanCacheWrapper
 
     #
     # Commands
     #
-    gearman.command.cache_clear.class: GearmanBundle\Command\GearmanCacheClearCommand
-    gearman.command.cache_warmup.class: GearmanBundle\Command\GearmanCacheWarmupCommand
-    gearman.command.job_describe.class: GearmanBundle\Command\GearmanJobDescribeCommand
-    gearman.command.job_execute.class: GearmanBundle\Command\GearmanJobExecuteCommand
-    gearman.command.worker_describe.class: GearmanBundle\Command\GearmanWorkerDescribeCommand
-    gearman.command.worker_execute.class: GearmanBundle\Command\GearmanWorkerExecuteCommand
-    gearman.command.worker_list.class: GearmanBundle\Command\GearmanWorkerListCommand
+    gearman.command.cache_clear.class: EduardTrandafir\GearmanBundle\Command\GearmanCacheClearCommand
+    gearman.command.cache_warmup.class: EduardTrandafir\GearmanBundle\Command\GearmanCacheWarmupCommand
+    gearman.command.job_describe.class: EduardTrandafir\GearmanBundle\Command\GearmanJobDescribeCommand
+    gearman.command.job_execute.class: EduardTrandafir\GearmanBundle\Command\GearmanJobExecuteCommand
+    gearman.command.worker_describe.class: EduardTrandafir\GearmanBundle\Command\GearmanWorkerDescribeCommand
+    gearman.command.worker_execute.class: EduardTrandafir\GearmanBundle\Command\GearmanWorkerExecuteCommand
+    gearman.command.worker_list.class: EduardTrandafir\GearmanBundle\Command\GearmanWorkerListCommand
 
     #
     # Externals
